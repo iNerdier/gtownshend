@@ -1,0 +1,11 @@
+!!!
+%html{lang: "#{I18n.locale}"}
+  %head
+    %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{charset: "utf-8"}/
+    %meta{content: "width=device-width, initial-scale=1, shrink-to-fit=no", name: "viewport"}/
+    %title thoughtbot Middleman Template
+    = stylesheet_link_tag "main"
+  %body
+    %main{role: "main"}
+      = yield
