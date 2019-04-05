@@ -3,6 +3,11 @@ activate :autoprefixer
 activate :inline_svg
 activate :directory_indexes
 
+# Generate a page for each image listed in the data file
+data.portfolio.image_list.each_with_index do |image, current|
+  proxy "/shots/#{image[:image_name]}/index.html", "/template/template.html", :locals => { :item => image, :current => current}, :ignore => true
+end
+
 set :css_dir, "assets/stylesheets"
 set :fonts_dir, "assets/fonts"
 set :images_dir, "assets/images"
