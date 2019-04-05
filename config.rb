@@ -1,3 +1,4 @@
+activate :livereload
 activate :autoprefixer
 activate :inline_svg
 activate :directory_indexes
