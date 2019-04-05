@@ -1,1 +1,20 @@
-%h1 Hello world
+.header--container
+  %h1 Gilbert Townshend
+
+.custom-grid--thirds
+  -data.portfolio.image_list.each do |image|
+    .single-column
+      =link_to image_tag("assets/images/" + image[:image_name] + ".jpg"), "/shots/" + image[:image_name]
+
+%footer
+  .contact
+    %ul
+      %li
+        =link_to "Twitter", "https://twitter.com/iNerdier", target: "blank"
+      %li
+        =mail_to "hello@gtownshend.com"
+      %li
+        =tel_to "07891 028 519"
+  .copyright
+    © Gilbert Townshend
+    = Date.today.year

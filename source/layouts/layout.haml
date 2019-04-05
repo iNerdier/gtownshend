@@ -4,8 +4,17 @@
     %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %meta{charset: "utf-8"}/
     %meta{content: "width=device-width, initial-scale=1, shrink-to-fit=no", name: "viewport"}/
-    %title thoughtbot Middleman Template
+    
+    %meta{ name: "description", content: "Portforio of Gilbert Townshend, Photographer" }
+    %meta{ name: "author", content: "Gilbert Townshend" }
+
+    %title= current_page.data.title || "Gilbert Townshend"
+    
+
     = stylesheet_link_tag "main"
+    = javascript_include_tag "all"
+
   %body
     %main{role: "main"}
       = yield
+  / = partial "partials/footer"
