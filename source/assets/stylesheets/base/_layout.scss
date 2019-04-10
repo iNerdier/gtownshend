@@ -37,6 +37,11 @@ footer {
   }
 }
 
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
 .description {
   font-size: modular-scale(1.3);
   font-variant-numeric: oldstyle-nums;
@@ -44,7 +49,26 @@ footer {
   bottom: 5%;
   left: 15%;
   color: #fff;
-  opacity: 0.82;
+
+  // Smart arse animation
+  // opacity: 0;
+  // animation: 10s ease-out fadeout;
+}
+
+.background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.1);
+  filter: blur(5px);
+  opacity: 0.7;
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  width: 100vw;
+  height: 100vh;
+
 }
 
 .thumbnails {
@@ -73,10 +97,10 @@ footer {
 }
 
 .custom-grid--single {
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $light-gray;
   position: relative;
   img {
     max-height: 100vh;
@@ -91,14 +115,18 @@ footer {
 
 .single-column {
   flex: 1 100%;
-  margin: 1rem;
+  // margin: 1rem;
+  a {
+    padding: 0;
+    display: inline-block;
+  }
 }
 
 @media all and (min-width: 800px) {
   .single-column {
     justify-content: space-between;
     flex: 0 0 30%; 
-    margin: 1rem;
+    margin: 0 1rem 1rem 1rem;
   }
 }
 
