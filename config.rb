@@ -1,4 +1,3 @@
-activate :livereload
 activate :autoprefixer
 activate :inline_svg
 activate :directory_indexes
@@ -29,6 +28,10 @@ set :markdown_engine, :redcarpet
 page "/*.json", layout: false
 page "/*.txt", layout: false
 page "/*.xml", layout: false
+
+configure :development do
+  activate :livereload
+end
 
 configure :production do
   activate :asset_hash
