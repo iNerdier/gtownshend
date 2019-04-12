@@ -9,7 +9,7 @@ data.portfolio.image_list.each_with_index do |image, current|
 end
 
 # wrap markdown with some formatting
-page "bio.html", :layout => :text
+page "text/*", :layout => :text
 
 set :css_dir, "assets/stylesheets"
 set :fonts_dir, "assets/fonts"
