@@ -17,7 +17,7 @@ h6 {
   font-variant-numeric: oldstyle-nums;
 }
 
-@each $header, $size in (h1: 4, h2: 3, h3: 2) {
+@each $header, $size in (h1: 6, h2: 4, h3: 2) {
   #{$header} {
     font-size: modular-scale($size);
   }
