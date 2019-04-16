@@ -9,13 +9,8 @@ html {
   box-sizing: inherit;
 }
 
-html,
 body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
+  min-height: 100%;
 }
 
 header {
@@ -28,6 +23,12 @@ footer {
   margin: 1rem;
 }
 
+h1, h2, h3 {
+  a {
+    text-decoration: none;
+  }
+}
+
 .contact {
   flex: 1 0 0;
 
@@ -36,11 +37,6 @@ footer {
     flex-wrap: wrap;
     margin: 0 0.5rem;
   }
-}
-
-@keyframes fadeout {
-    from { opacity: 1; }
-    to   { opacity: 0; }
 }
 
 .background {
@@ -68,10 +64,6 @@ footer {
   bottom: 5%;
   left: 15%;
   color: #fff;
-
-  // Smart arse animation
-  // opacity: 0;
-  // animation: 10s ease-out fadeout;
 }
 
 
@@ -97,7 +89,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   align-content: flex-start;
-  margin-bottom: 2rem;
+  padding: 2rem;
 }
 
 .custom-grid--single {
@@ -112,25 +104,31 @@ footer {
   }
 }
 
-.single-column {
-  flex: 1 100%;
-  // margin: 1rem;
-  a {
-    padding: 0;
-    display: inline-block;
-  }
-}
-
 .text {
   margin: 2rem auto;
   max-width: 60rem;
 }
 
-@media all and (min-width: 800px) {
-  .single-column {
+$break-medium: 800px;
+$break-large: 1680px;
+
+.single-column {
+  flex: 1 100%;
+  // required to make images play right inside the A somehow
+  display: inline-flex;
+  padding: 1rem;
+
+  a {
+    margin: 0;
+    padding: 0;
+  }  
+  
+  @media all and (min-width: $break-medium) {
     justify-content: space-between;
-    flex: 0 0 33.33%; 
-    padding: 0 1rem 1rem 1rem;
+    flex: 0 0 50%; 
+  }
+  @media all and (min-width: $break-large) {
+    flex: 0 0 33.33%;  
   }
 }
 

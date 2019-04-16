@@ -6,4 +6,6 @@ img,
 picture {
   margin: 0;
   max-width: 100%;
+  // required to get rid of the annoying unwanted pseudo-padding when inside an a block
+  display: block;
 }
