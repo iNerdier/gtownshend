@@ -20,7 +20,7 @@ header {
 
 footer {
   display: flex;
-  margin: 1rem;
+  margin: 1rem 3rem 2rem 3rem;
 }
 
 h1, h2, h3 {
@@ -49,6 +49,7 @@ h1, h2, h3 {
   position: fixed;
   left: 0;
   right: 0;
+  z-index: -1;
 
   width: 100vw;
   height: 100vh;
@@ -89,7 +90,7 @@ h1, h2, h3 {
   justify-content: space-between;
   align-items: center;
   align-content: flex-start;
-  padding: 2rem;
+  padding: 0 2rem;
 }
 
 .custom-grid--single {
