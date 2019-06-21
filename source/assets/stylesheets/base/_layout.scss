@@ -90,7 +90,10 @@ h1, h2, h3 {
   justify-content: space-between;
   align-items: center;
   align-content: flex-start;
-  padding: 0 2rem;
+
+  @media all and (min-width: $break-medium) {
+    padding: 0 2rem;
+  }
 }
 
 .custom-grid--single {
@@ -108,10 +111,8 @@ h1, h2, h3 {
 .text {
   margin: 2rem auto;
   max-width: 60rem;
+  padding: 0.5rem;
 }
-
-$break-medium: 800px;
-$break-large: 1680px;
 
 .single-column {
   flex: 1 100%;
