@@ -27,14 +27,10 @@ With a few exceptions all work is shot on film and developed by me (yes, even th
 
 My personal work is mostly photographic image based though I do also occasionally branch out into origami and a few other creative things. I enjoy working with obsolete or eccentric technology and am currently  repurposing old film equipment to be used in new ways, including modifying medium format cameras to shoot instant film.
 
-Currently hoping to get on an MA programme in Autumn of 2019 further develop my practice.
+Currently looking for jobs and pondering a Masters.
 
-I studied graphic design, did some web development for a bit, worked doing restoration of artworks and still sell things at a farmers market at the weekends.
+I studied graphic design, did some web development after graduating, worked helping to do restoration of art on paper and very occasionally on TV sets as camera assistant.
+
+Still not entirely sure what that makes me, other than adept at obsolete camera technology, reasonably good at cutting mounts and a passable web developer.
 
 ***
-
-### Projects
-
-Up-coming project for my new-to-me large format camera, documenting the empty ‘luxury’ tower blocks in London. Current projects include documenting the remains of things left on the British coast line and a series of portraits.
-
-Completely unrelated to photography I'm also attempting to learn how to weld.
