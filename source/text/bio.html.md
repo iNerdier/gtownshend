@@ -23,14 +23,20 @@ Foundation Fine Art from City Lit - *2016*
 
 ### About
 
-With a few exceptions all work is shot on film and developed by me (yes, even the C41 & E6 stuff). I've shot sub-miniature to large format and everything in-between.
+My personal work is mostly photographic, though I do also occasionally branch out into origami and a few other creative things. I enjoy working with obsolete or eccentric technology and currently have a plan to repurpos old film equipment to be used in new ways, including modifying medium format cameras to shoot instant film.
 
-My personal work is mostly photographic image based though I do also occasionally branch out into origami and a few other creative things. I enjoy working with obsolete or eccentric technology and am currently  repurposing old film equipment to be used in new ways, including modifying medium format cameras to shoot instant film.
-
-Currently looking for jobs and pondering a Masters.
+Currently looking for jobs involving photography / video. I have usually been on sets helping out but I also know a fair amount about retouching and editing.
 
 I studied graphic design, did some web development after graduating, worked helping to do restoration of art on paper and very occasionally on TV sets as camera assistant.
 
-Still not entirely sure what that makes me, other than adept at obsolete camera technology, reasonably good at cutting mounts and a passable web developer.
+Ended up with a rather eclectic array of skills, I can cut mounts, know probably too much about old camera equipment and sometimes do some programming. Like this website for example.
+
+***
+
+### Process
+
+With a few exceptions all work is shot on film and developed by me (yes, even the C41 & E6 stuff). I've shot sub-miniature to large format and everything in-between. I have ruined a lot of things by trying to use expired film / development chemicals, don't do the same.
+
+I'm not against digital, I just learnt to use film when I was small and inherited quite a lot of film cameras. It seems like a shame to never have them be used again.
 
 ***
