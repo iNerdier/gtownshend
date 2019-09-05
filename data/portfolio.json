@@ -1,6 +1,18 @@
 {
   "image_list": [
     {
+      "image_name": "hut",
+      "title": "Beach Hut, Whitstable, 120 Negative, 2019"
+    },
+    {
+      "image_name": "bicycle",
+      "title": "Bicycle, Kraków, 120 Negative, 2019"
+    },
+    {
+      "image_name": "spade",
+      "title": "Spade, Margate, 120 Negative, 2019"
+    },
+    {
       "image_name": "sheppey_00",
       "title": "Warden Point, Isle of Sheppey, 5x4 Slide, 2019"
     },
