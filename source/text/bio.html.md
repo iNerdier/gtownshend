@@ -1,42 +1,42 @@
-# Gilbert Maximillian Townshend
+# Gilbert Townshend
 ## (b. 1988, London, UK)
 
 ### Contact
 
 * [Twitter: @iNerdier](https://twitter.com/iNerdier)
 * [Email: hello@gtownshend.com](mailto:hello@gtownshend.com)
+* [Instagram: @gmtownshend](https://www.instagram.com/gmtownshend/)
 * [Tel: 07891 028 519](tel:07891028519)
-
-I'm dormant on a few other platforms like Tumblr and Instagram but if you want to reach me the best way is via email.
 
 ***
 
 ### Qualifications
 
-Degree in Graphic Design from Camberwell College of Art (UAL) - *2011*
+*2016* - Foundation Fine Art from City Lit
 
-Foundation in Graphic Design from London College of Communication - *2007*
+*2011* - Degree in Graphic Design from Camberwell College of Art (UAL)
 
-Foundation Fine Art from City Lit - *2016*
+*2007* - Foundation in Graphic Design from London College of Communication
 
 ***
 
 ### About
 
-My personal work is mostly photographic, though I do also occasionally branch out into origami and a few other creative things. I enjoy working with obsolete or eccentric technology and currently have a plan to repurpos old film equipment to be used in new ways, including modifying medium format cameras to shoot instant film.
+I take photographs, mostly with film cameras. 
 
-Currently looking for jobs involving photography / video. I have usually been on sets helping out but I also know a fair amount about retouching and editing.
+I never stopped or came back to it, it's just always been a thing I did. I learned to use and print from film when my mother showed me as a child and I inherited a few film cameras. It just seemed like the right thing to use them again.
 
-I studied graphic design, did some web development after graduating, worked helping to do restoration of art on paper and very occasionally on TV sets as camera assistant.
-
-Ended up with a rather eclectic array of skills, I can cut mounts, know probably too much about old camera equipment and sometimes do some programming. Like this website for example.
+I studied graphic design at Camberwell College of Art, didn't enjoy it at all and then made a few very simple websites for people after graduating. Then I decided I didn't like being in front of a computer all day and was not at all good at finding clients. Then I worked on a couple of tv shoots as a camera assistant and ended up selling apple juice at a farmers market for years. Then I did another, much better fine art foundation at the City Lit and started enjoying making things again.
 
 ***
 
 ### Process
 
-With a few exceptions all work is shot on film and developed by me (yes, even the C41 & E6 stuff). I've shot sub-miniature to large format and everything in-between. I have ruined a lot of things by trying to use expired film / development chemicals, don't do the same.
+I wish that I could actually tell you. I have a great respect for those photographers who have a whole methodology and understanding of their methods, I try and find interesting objects / people / buildings and frame them in as best a way as I can. Sometimes it works, often I wish I had done something differently.
 
-I'm not against digital, I just learnt to use film when I was small and inherited quite a lot of film cameras. It seems like a shame to never have them be used again.
+For 2020 my plan is to take a thoughtful photograph every day and post the results on the web.
+
+Mainly because I can't afford to do otherwise I develop everything myself (including colour). I probably ruin about a third of what I shoot due to keeping chemicals too long or using expired film that seemed like a good idea on ebay. I also take cameras apart for much the same reason and have a pretty good success rate fixing them.
+
 
 ***
