@@ -3,14 +3,14 @@ document.addEventListener("keyup",function(e){
    switch(key){
       //left arrow
       case 37:
-         document.getElementById("linkLeft").click();
+         document.getElementById("left").click();
       break;
       case 38:
          document.getElementById("linkBack").click();
       break;
       //right arrow
       case 39:
-         document.getElementById("linkRight").click();
+         document.getElementById("right").click();
       break;
    }
 });

@@ -14,7 +14,6 @@ body {
 }
 
 header {
-  text-align: center;
   margin: 2rem;
 }
 
@@ -23,7 +22,8 @@ footer {
   margin: 1rem 3rem 2rem 3rem;
 }
 
-h1, h2, h3 {
+h1, h2 {
+  text-align: center;
   a {
     text-decoration: none;
   }
@@ -119,7 +119,7 @@ h1, h2, h3 {
   // required to make images play right inside the A somehow
   display: inline-flex;
   padding: 0.5rem;
-  transition: all 0.3s ease-out;
+  transition: all $base-duration $base-timing;
   
   a {
     margin: 0;
@@ -143,17 +143,17 @@ h1, h2, h3 {
 }
 
 .controls {
-  a {
-    font-size: modular-scale(4);
-    text-decoration: none;
-    color: #efe;
-    &:hover {
-      color: $action-color;
-    }
+
+  font-size: modular-scale(5);
+  text-decoration: none;
+  color: #efe;
+  &:hover {
+    color: $action-color;
   }
   position: fixed;
-  top: 50%;
-  margin: 0 2rem; 
+  top: 0;
+  height: 100%;
+  padding: 2rem; 
   width: 8em;  
 }
 
@@ -165,4 +165,9 @@ h1, h2, h3 {
   @extend .controls;
     right: 0;
     text-align: right;
+}
+
+.inner {
+  top: 50%;
+  position: relative;
 }

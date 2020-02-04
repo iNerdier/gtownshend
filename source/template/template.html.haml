@@ -7,12 +7,16 @@
 %span.thumbnails
   = link_to("↑", "/", id: "linkBack")
 
-%span#left
-  = link_to("←", "/shots/" + data.portfolio.image_list[current - 1].image_name, id: "linkLeft")
-%span#right
-  - if data.portfolio.image_list[current + 1].present?
-    = link_to("→", "/shots/" + data.portfolio.image_list[current + 1].image_name, id: "linkRight")
-  - else 
-    = link_to("→", "/shots/" + data.portfolio.image_list[0].image_name, id: "linkRight")
+= link_to("/shots/" + data.portfolio.image_list[current - 1].image_name,  id: "left") do
+  %span.inner ←
+    
 
-= partial "partials/footer"
+- if data.portfolio.image_list[current + 1].present?
+  = link_to("/shots/" + data.portfolio.image_list[current + 1].image_name, id: "right") do
+    %span.inner →
+- else 
+  = link_to("/shots/" + data.portfolio.image_list[0].image_name, id: "right") do
+    %span.inner →
+
+
+/ = partial "partials/footer"
