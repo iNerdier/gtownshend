@@ -79,8 +79,9 @@ h1, h2 {
   }
 }
 
-.copyright {
+#copyright {
   align-content: flex-end;
+  font-size: $base-size;
 }
 
 .custom-grid--thirds {
