@@ -1,7 +1,9 @@
 %header
   %h1 Gilbert Townshend
   %h2
-    =link_to "Biography", "text/bio"
+    = link_to "About", "text/bio"
+  %h2
+    = link_to "Projects", "text/projects"
 
 .custom-grid--thirds
   -data.portfolio.image_list.each do |image|
