@@ -1,6 +1,7 @@
 activate :autoprefixer
 activate :inline_svg
 activate :directory_indexes
+activate :middleman_simple_thumbnailer
 
 # Generate a page for each image listed in the data file
 data.portfolio.image_list.each_with_index do |image, current|
