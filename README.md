@@ -1,6 +1,6 @@
 # Gilbert Portfolio Website
 
-This app is built with [Middleman].
+This app is built with [Middleman] and hosted on Netlify when I can remember how to make it work.
 
 [Middleman]: https://middlemanapp.com/
 
