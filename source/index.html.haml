@@ -8,6 +8,5 @@
 .custom-grid--thirds
   -data.portfolio.image_list.each do |image|
     .single-column
-      =link_to image_tag("assets/images/thumbnails/" + image[:image_name] + "_tn.jpg"), "/shots/" + image[:image_name]
-
+      =link_to image_tag(image[:image_name] + ".jpg", resize_to: '800x800'), "/shots/" + image[:image_name]
 = partial "partials/footer"
