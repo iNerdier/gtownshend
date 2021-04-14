@@ -1,7 +1,9 @@
 figure {
   margin: 0;
-  float: right;
-  max-width: 50%;
+  @media all and (min-width: $break-medium) {
+    max-width: 50%;
+    float: right;
+  }
   padding: 1rem;
 }
 

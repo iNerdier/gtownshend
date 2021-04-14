@@ -14,11 +14,12 @@ h6 {
   font-family: $heading-font-family;
   line-height: $heading-line-height;
   font-kerning: normal;
-  margin: 0 0 $small-spacing;
+  margin: 0 0 $smaller-spacing;
   font-variant-numeric: oldstyle-nums;
+  font-weight: normal;
 }
 
-@each $header, $size in (h1: 6, h2: 4, h3: 2) {
+@each $header, $size in (h1: 5, h2: 3, h3: 2) {
   #{$header} {
     font-size: modular-scale($size);
   }
@@ -27,13 +28,13 @@ h6 {
 p {
   font-size: $base-size;
   margin: 0 0 $small-spacing;
-  font-variant-numeric: lining-nums;
+  font-variant-numeric: oldstyle-nums;
 }
 
 a {
   color: $action-color;
-  text-decoration-skip: ink;
   transition: color $base-duration $base-timing;
+  text-decoration: none;
 
   &:hover {
     color: shade($action-color, 25%);
@@ -51,4 +52,11 @@ hr {
   border-right: 0;
   border-top: 0;
   margin: $base-spacing 0;
+}
+
+ul, ol {
+  p {
+  font-variant-numeric: lining-nums;
+  font-size: 1.25rem;
+  }
 }

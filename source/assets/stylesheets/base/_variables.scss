@@ -1,5 +1,5 @@
 // Typography
-$base-font-family: "Avenir Next Regular", $font-stack-system;
+$base-font-family: "Avenir Next", $font-stack-system;
 $heading-font-family: $base-font-family;
 $base-size:modular-scale(1);
 
@@ -11,6 +11,7 @@ $heading-line-height: 1.2;
 $base-border-radius: 3px;
 $base-spacing: 1.5em;
 $small-spacing: $base-spacing / 2;
+$smaller-spacing: $base-spacing / 3;
 $base-z-index: 0;
 
 // Colors
@@ -41,5 +42,5 @@ $base-duration: 450ms;
 $base-timing: ease-out;
 
 // Breakpoints
-$break-medium: 800px;
+$break-medium: 768px;
 $break-large: 1400px;
