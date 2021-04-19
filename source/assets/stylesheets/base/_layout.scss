@@ -15,6 +15,15 @@ body {
 
 header {
   margin: 2rem;
+
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline-flex;
+    padding: 0 1em;
+  }
 }
 
 footer {
@@ -157,7 +166,7 @@ h1, h2 {
   top: 0;
   height: 100%;
   padding: 2rem; 
-  width: 8em;  
+  width: 4em;  
 }
 
 #left {
