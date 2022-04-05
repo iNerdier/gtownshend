@@ -4,12 +4,12 @@
 
 %span.description
   = item[:title]
-%span.thumbnails
-  = link_to("↑", "/", id: "linkBack")
+
+%span.inner
+  = link_to("↑", "/", id: "back")
 
 = link_to("/shots/" + data.portfolio.image_list[current - 1].image_name,  id: "left") do
   %span.inner ←
-    
 
 - if data.portfolio.image_list[current + 1].present?
   = link_to("/shots/" + data.portfolio.image_list[current + 1].image_name, id: "right") do

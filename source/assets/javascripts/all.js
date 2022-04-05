@@ -6,7 +6,7 @@ document.addEventListener("keyup",function(e){
          document.getElementById("left").click();
       break;
       case 38:
-         document.getElementById("linkBack").click();
+         document.getElementById("back").click();
       break;
       //right arrow
       case 39:
