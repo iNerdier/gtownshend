@@ -1,9 +1,9 @@
-$_form-background-color: #fff;
+$_form-background-colour: #fff;
 $_form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
-$_form-box-shadow-focus: $_form-box-shadow, 0 0 5px rgba($action-color, 0.7);
+$_form-box-shadow-focus: $_form-box-shadow, 0 0 5px rgba($action-colour, 0.7);
 
 fieldset {
-  background-color: transparent;
+  background-colour: transparent;
   border: 0;
   margin: 0;
   padding: 0;
@@ -25,34 +25,34 @@ input,
 select,
 textarea {
   display: block;
-  font-family: $base-font-family;
+  font-family: $sans-serif-font-family;
   font-size: 16px;
 }
 
 #{$all-text-inputs} {
   appearance: none;
-  background-color: $_form-background-color;
+  background-color: $_form-background-colour;
   border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $_form-box-shadow;
   box-sizing: border-box;
   margin-bottom: $small-spacing;
   padding: $base-spacing / 3;
-  transition: border-color $base-duration $base-timing;
-  width: 100%;
+  transition: border-colour $base-duration $base-timing;
+  width: 50%;
 
   &:hover {
-    border-color: shade($base-border-color, 20%);
+    border-color: shade($base-border-colour, 20%);
   }
 
   &:focus {
-    border-color: $action-color;
+    border-color: $action-colour;
     box-shadow: $_form-box-shadow-focus;
     outline: none;
   }
 
   &:disabled {
-    background-color: shade($_form-background-color, 5%);
+    background-colour: shade($_form-background-colour, 5%);
     cursor: not-allowed;
 
     &:hover {
@@ -61,7 +61,7 @@ textarea {
   }
 
   &::placeholder {
-    color: tint($base-font-color, 40%);
+    color: var(--colour-light-grey);
   }
 }
 

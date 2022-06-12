@@ -1,22 +1,21 @@
 html {
-  color: $base-font-color;
-  font-family: $base-font-family;
+  color: $base-font-colour;
+  font-family: $sans-serif-font-family;
   font-size: 100%;
   line-height: $base-line-height;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font-family;
   line-height: $heading-line-height;
   font-kerning: normal;
   margin: 0 0 $small-spacing 0;
   font-variant-numeric: oldstyle-nums;
   font-weight: normal;
+}
+
+h1, h2 {
+  text-align: center;
 }
 
 @each $header, $size in (h1: 5, h2: 3, h3: 2) {
@@ -26,18 +25,19 @@ h6 {
 }
 
 p {
+  font-family: $serif-font-family;
   font-size: $base-size;
   margin: 0 0 $small-spacing;
   font-variant-numeric: oldstyle-nums;
 }
 
 a {
-  color: $action-color;
+  color: $action-colour;
   transition: color $base-duration $base-timing;
   text-decoration: none;
 
   &:hover {
-    color: shade($action-color, 25%);
+    color: shade($action-colour, 25%);
   }
 
   &:focus {
