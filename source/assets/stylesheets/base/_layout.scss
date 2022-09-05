@@ -24,6 +24,10 @@ footer {
   margin: 1rem 3rem 1rem 3rem;
 }
 
+// .text ul {
+//   font-family: $san-serif-font-family;
+// }
+
 .figure_left {
   float: left;
   padding: 0.5rem 1.5rem 1.5rem 0;
@@ -31,6 +35,7 @@ footer {
 
 .contact {
   flex: 1 0 0;
+  font-family: $sans-serif-font-family;
 
   ul li {
     display: inline-flex;
@@ -105,6 +110,9 @@ footer {
   margin: 2rem auto;
   max-width: 50rem;
   padding: 0 0.5rem 0.5rem;
+  ul {
+    font-family: $serif-font-family;
+  }
 }
 
 .single-column {
@@ -136,7 +144,6 @@ footer {
 }
 
 .controls {
-
   font-size: modular-scale(5);
   text-decoration: none;
   color: hsl(120, 100%, 96.667%);

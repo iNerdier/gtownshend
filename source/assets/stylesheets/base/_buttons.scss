@@ -18,13 +18,13 @@ $_button-background-colour-hover: shade($action-colour, 20%);
   padding: $small-spacing $base-spacing;
   text-align: center;
   text-decoration: none;
-  transition: background-colour $base-duration $base-timing;
+  transition: background-color $base-duration $base-timing;
   user-select: none;
   vertical-align: middle;
   white-space: nowrap;
 
   &:hover {
-    background-colour: $_button-background-colour-hover;
+    background-color: $_button-background-colour-hover;
     color: contrast-switch($_button-background-colour-hover);
   }
 
@@ -38,7 +38,7 @@ $_button-background-colour-hover: shade($action-colour, 20%);
     opacity: 0.5;
 
     &:hover {
-      background-colour: $_button-background-colour;
+      background-color: $_button-background-colour;
     }
   }
 }
