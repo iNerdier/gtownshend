@@ -20,7 +20,7 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.2.3)
     contracts (0.16.1)
-    dotenv (2.8.1)
+    dotenv (3.1.0)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -103,7 +103,7 @@ GEM
     mini_magick (4.12.0)
     mini_portile2 (2.8.5)
     minitest (5.22.3)
-    nokogiri (1.15.6)
+    nokogiri (1.16.3)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     padrino-helpers (0.15.3)
@@ -154,7 +154,7 @@ DEPENDENCIES
   sassc
 
 RUBY VERSION
-   ruby 2.7.2p137
+   ruby 3.2.3p157
 
 BUNDLED WITH
-   2.1.4
+   2.4.19
