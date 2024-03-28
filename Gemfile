@@ -12,4 +12,6 @@ gem "middleman-minify-html"
 gem "middleman-livereload"
 gem "redcarpet"
 gem "sassc"
-gem 'middleman-simple-thumbnailer'
+gem 'middleman-images'
+gem 'mini_magick'
+gem 'image_optim'
