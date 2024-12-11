@@ -1,6 +1,30 @@
 {
   "image_list": [
     {
+      "image_name": "XP2_torso",
+      "title": "Torso, 2022"
+    },
+    {
+      "image_name": "skull",
+      "title": "Skull, 2022"
+    },
+    {
+      "image_name": "vertibra",
+      "title": "Vertibra, 2021"
+    },    
+    {
+      "image_name": "kidneys",
+      "title": "Kidneys, 2022"
+    },
+    {
+      "image_name": "lungs",
+      "title": "Lungs, 2022"
+    },
+    {
+      "image_name": "bellmer",
+      "title": "Intestines, 2022"
+    },
+    {
       "image_name": "lichen",
       "title": "Tank Traps, 2016"
     },
@@ -53,24 +77,16 @@
       "title": "Ceiling rosette, Glasgow, 2018"
     },
     {
-      "image_name": "2cv",
-      "title": "2CV, Glasgow, 2017"
-    },
-    {
       "image_name": "cat",
       "title": "Tom cat, Greece, 2017"
-    },    
-    {
-      "image_name": "michael",
-      "title": "Michael, 2018"
-    },
-    {
-      "image_name": "natalie",
-      "title": "Natalie, 2016"
     },
     {
       "image_name": "ramen",
       "title": "Ramen, London, 2019"
+    },    
+    {
+      "image_name": "natalie",
+      "title": "Natalie, 2016"
     },
     {
       "image_name": "mary",
@@ -79,10 +95,6 @@
     {
       "image_name": "zaisha",
       "title": "Zaisha, 2019"
-    },
-    {
-      "image_name": "sarah_9",
-      "title": "Sarah 9, 2018"
     }
   ]
 }
